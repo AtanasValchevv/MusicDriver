@@ -3,7 +3,7 @@
 ### Description
 
 MusicLibrary offers a complete solution for managing music collections, catering to enthusiasts who seek a user-friendly platform for organizing, storing, editing, and discovering their favorite albums. Its intuitive interface and robust features enable users to effortlessly curate their music while ensuring security through authentication and authorization protocols.
----
+
 ### Installation and set up
 
 To install all dependencies listed in the `package.json` file of your project. Run the following command:
@@ -27,10 +27,10 @@ git clone "link of your repository"
 
 navigate to the project directory
 
-````
+```
 cd MusicLibrary
 
----
+
 ### REST Api
 
 * GET /data/albums?sortBy=_createdOn%20desc
@@ -47,7 +47,7 @@ cd MusicLibrary
 	* body { albumId: string }
 * GET /data/likes?where=albumId%3d%22:albumId%22%20&distinct=_ownerId&count
 
----
+
 
 ### Pages and Permission 
 
@@ -65,7 +65,7 @@ cd MusicLibrary
   * Home
   * Dashboard
 
-  ---
+  
   Technologies
 
   ```
